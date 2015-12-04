@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Tweety:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Tweety_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Tweety/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Tweety" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="twitter4j-async-4.0.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
